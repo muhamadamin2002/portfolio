@@ -1,16 +1,159 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>رزومه محمدامین قربان‌زاده</title>
+
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
-<body>
-    
-
-
+<body class="bg-gray-500 flex flex-col items-center justify-center min-h-screen">
 
     
+    <nav class="bg-yellow-500 w-full fixed top-0 left-0 shadow-lg">
+        <ul class="flex justify-center space-x-4 md:space-x-10 p-4">
+            <li><a href="#about" class="px-5 py-2 text-white rounded hover:bg-red-400">درباره</a></li>
+            <li><a href="#skills" class="px-5 py-2 text-white rounded hover:bg-red-400">مهارت‌ها</a></li>
+            <li><a href="#projects" class="px-5 py-2 text-white rounded hover:bg-red-400">پروژه‌ها</a></li>
+            <li><a href="#contact" class="px-5 py-2 text-white rounded hover:bg-red-400">راه‌های ارتباطی</a></li>
+        </ul>
+    </nav>
+
+    
+    <section id="about" class="w-full max-w-2xl text-center mt-20 p-6">
+        <img src="image/profile.jpg" alt="my profile" class="w-40 h-40 rounded-full mx-auto block my-4">
+        <h1 class="text-3xl font-bold">محمدامین قربان‌زاده</h1>
+        <p class="text-white mt-4">
+            سلام، من محمدامین قربان‌زاده هستم، دانشجوی کامپیوتر با علاقه و مهارت در طراحی سایت و برنامه‌نویسی با پایتون.
+            از یادگیری فناوری‌های جدید و حل چالش‌های برنامه‌نویسی لذت می‌برم و همیشه در حال بهبود مهارت‌هایم هستم.
+        </p>
+    </section>
+
+    
+    <section id="skills" class="bg-white p-6 rounded-lg shadow-lg w-full max-w-2xl mt-10">
+        <h2 class="text-2xl font-bold text-center mb-4">مهارت‌های من</h2>
+
+        
+        <div class="space-y-4">
+            <div>
+                <div class="flex justify-between">
+                    <span><i class="fab fa-python text-blue-500 text-xl"></i> پایتون</span>
+                    <span>50%</span>
+                </div>
+                <div class="bg-gray-200 h-3 rounded-full">
+                    <div class="bg-blue-500 h-3 rounded-full w-[50%]"></div>
+                </div>
+            </div>
+
+            <div>
+                <div class="flex justify-between">
+                    <span><i class="fab fa-html5 text-orange-500 text-xl"></i> HTML & CSS</span>
+                    <span>90%</span>
+                </div>
+                <div class="bg-gray-200 h-3 rounded-full">
+                    <div class="bg-orange-500 h-3 rounded-full w-[90%]"></div>
+                </div>
+            </div>
+
+            <div>
+                <div class="flex justify-between">
+                    <span><i class="fab fa-js text-yellow-500 text-xl"></i> جاوااسکریپت</span>
+                    <span>50%</span>
+                </div>
+                <div class="bg-gray-200 h-3 rounded-full">
+                    <div class="bg-yellow-500 h-3 rounded-full w-[50%]"></div>
+                </div>
+            </div>
+
+            <div>
+                <div class="flex justify-between">
+                    <span><i class="fas fa-code text-gray-700 text-xl"></i> C++</span>
+                    <span>50%</span>
+                </div>
+                <div class="bg-gray-200 h-3 rounded-full">
+                    <div class="bg-gray-700 h-3 rounded-full w-[50%]"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+   
+        <section id="projects" class="text-center mt-10 p-6 w-full max-w-4xl">
+            <h2 class="text-2xl font-bold mb-6">پروژه‌ها</h2>
+        
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                
+                <div class="bg-white p-4 rounded-lg shadow-lg">
+                    <i class="fa-solid fa-globe text-blue-500 text-4xl mb-3"></i>
+                    <h3 class="text-lg font-bold">وب‌سایت شخصی</h3>
+                    <p class="text-gray-600 text-sm mt-2">یک وب‌سایت ساده برای معرفی خودم و مهارت‌هایم.</p>
+                </div>
+        
+                
+                <div class="bg-white p-4 rounded-lg shadow-lg">
+                    <i class="fa-solid fa-shopping-cart text-green-500 text-4xl mb-3"></i>
+                    <h3 class="text-lg font-bold">فروشگاه آنلاین</h3>
+                    <p class="text-gray-600 text-sm mt-2">یک فروشگاه اینترنتی ساده با HTML، CSS و JavaScript.</p>
+                </div>
+        
+                
+                <div class="bg-white p-4 rounded-lg shadow-lg">
+                    <i class="fa-solid fa-robot text-purple-500 text-4xl mb-3"></i>
+                    <h3 class="text-lg font-bold">ربات تلگرام</h3>
+                    <p class="text-gray-600 text-sm mt-2">یک ربات تلگرام ساده با پایتون برای پاسخ‌گویی خودکار.</p>
+                </div>
+        
+                
+                <div class="bg-white p-4 rounded-lg shadow-lg">
+                    <i class="fa-solid fa-code text-red-500 text-4xl mb-3"></i>
+                    <h3 class="text-lg font-bold">اپلیکیشن مدیریت کارها</h3>
+                    <p class="text-gray-600 text-sm mt-2">برنامه‌ای ساده برای مدیریت وظایف روزانه با JavaScript.</p>
+                </div>
+        
+                
+                <div class="bg-white p-4 rounded-lg shadow-lg">
+                    <i class="fa-solid fa-gamepad text-indigo-500 text-4xl mb-3"></i>
+                    <h3 class="text-lg font-bold">بازی ساده جاوااسکریپت</h3>
+                    <p class="text-gray-600 text-sm mt-2">یک بازی تحت وب با HTML، CSS و JavaScript.</p>
+                </div>
+        
+            </div>
+        </section>
+    
+
+    
+    <section id="contact" class="bg-gray-200 p-6 rounded-lg shadow-md w-full max-w-2xl mt-10">
+        <h3 class="text-lg font-bold text-center mb-3">راه‌های ارتباطی با من</h3>
+        <div class="flex justify-center gap-6">
+            
+            <a href="https://www.instagram.com/mmd.amin.ghorbanzadeh" target="_blank" class="text-pink-500 text-2xl hover:text-pink-600">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            
+            <a href="https://t.me/mmdamin20" target="_blank" class="text-blue-500 text-2xl hover:text-blue-600">
+                <i class="fa-brands fa-telegram"></i>
+            </a>
+
+            
+            <a href="mailto:aming4025@gmail.com" class="text-gray-700 text-2xl hover:text-gray-900">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+        </div>
+    </section>
+
 </body>
 </html>
